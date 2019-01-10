@@ -1,0 +1,17 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+  
+.status {
+  margin-bottom: 20px;
+}
+
+.board {
+  position: relative;
+  border: 15px solid #cfc8b8;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}

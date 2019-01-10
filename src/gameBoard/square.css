@@ -1,0 +1,29 @@
+.square {
+  font-size: 6rem;
+  height: 160px;
+  width: 160px;
+  color: #524a4c;
+  border: 4px solid #524a4c;
+  vertical-align: top;
+}
+.square:hover {
+  background-color: #b9d6eb;
+  cursor: pointer;
+  -webkit-transition: background-color .3s ease-out;;
+    -ms-transition: background-color .3s ease-out;;
+    transition: background-color .3s ease-out;;
+}
+.square.X {
+  background-color: #F55B5B;
+}
+.square.O {
+  background-color: #0076d7;
+}
+
+.square:focus{
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
